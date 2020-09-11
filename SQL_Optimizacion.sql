@@ -82,6 +82,13 @@ SELECT * FROM Usuario
 
 GO
 
+-- Consulta un usuario por fecha pero solo en la tabla historial
+SELECT * FROM Usuario FOR SYSTEM_TIME
+    CONTAINED IN ('2020-01-01 00:00:00.0000000', '2021-01-01 00:00:00.0000000')
+        WHERE UsuarioID = 1 ORDER BY ValidFrom;
+
+GO
+
 -- Consulta un usuario por ID
 SELECT * FROM Usuario
     FOR SYSTEM_TIME ALL WHERE
