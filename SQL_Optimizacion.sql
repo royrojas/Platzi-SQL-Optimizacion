@@ -44,6 +44,7 @@ SELECT * FROM Usuario
     BETWEEN '2020-01-01 00:00:00.0000000' AND '2021-01-01 00:00:00.0000000'
       WHERE UsuarioID = 1 ORDER BY ValidFrom;
 
+
 -- Para borrar las tablas versionadas
 
 ALTER TABLE [dbo].[Usuario] SET ( SYSTEM_VERSIONING = OFF  )
