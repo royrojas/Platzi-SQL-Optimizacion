@@ -30,6 +30,10 @@ GO
 
 SELECT * FROM Sales.Invoices WHERE OrderID = 100
 
+GO
+
+SELECT * FROM Purchasing.PurchaseOrders
+
 
 -- Para desplegar pantalla
 -- TOOLS \ OPTIONS \ Query Results \ SQL Server \ Result to Grid
