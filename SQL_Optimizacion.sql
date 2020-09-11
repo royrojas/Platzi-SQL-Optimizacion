@@ -56,3 +56,26 @@ GO
 DROP TABLE [dbo].[UsuarioHistory]
 GO
 
+
+-- Crear tabla versionada para tablas ya existentes
+
+CREATE TABLE Usuario2
+(
+  [UsuarioID] int NOT NULL PRIMARY KEY CLUSTERED
+  , Nombre nvarchar(100) NOT NULL
+  , Twitter varchar(100) NOT NULL
+  , Web varchar(100) NOT NULL
+ )
+
+ GO
+
+ALTER TABLE Usuario2
+ADD
+    ValidFrom datetime2 (2) GENERATED ALWAYS AS ROW START HIDDEN
+        constraint DF_ValidFrom DEFAULT DATEADD(second, -1, SYSUTCDATETIME())  
+    , ValidTo datetime2 (2) GENERATED ALWAYS AS ROW END HIDDEN
+        constraint DF_ValidTo DEFAULT '9999.12.31 23:59:59.99'
+    , PERIOD FOR SYSTEM_TIME (ValidFrom, ValidTo);
+    
+ALTER TABLE Usuario2
+    SET (SYSTEM_VERSIONING = ON (HISTORY_TABLE = dbo.Usuario2_History));
