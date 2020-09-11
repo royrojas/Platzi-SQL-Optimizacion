@@ -1,3 +1,7 @@
+-- Curso Optimización SQL SERVER
+-- Roy Rojas
+-- Clase 05 - Introducción Planes de Ejecución
+
 USE WideWorldImporters
 
 GO
