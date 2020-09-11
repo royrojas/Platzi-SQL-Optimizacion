@@ -6,6 +6,10 @@ USE PlatziSQL
 
 GO
 
+
+-------------------------------------
+-- Creacion de tabla 
+
 CREATE TABLE Usuario
 (
   [UsuarioID] int NOT NULL PRIMARY KEY CLUSTERED
@@ -19,6 +23,10 @@ CREATE TABLE Usuario
 WITH (SYSTEM_VERSIONING = ON (HISTORY_TABLE = dbo.UsuarioHistory));
 
 GO
+
+
+-------------------------------------
+-- Inserts de pruebas
 
 INSERT INTO [dbo].[Usuario]
            ([UsuarioID]
@@ -44,12 +52,18 @@ INSERT INTO [dbo].[Usuario]
 
 GO
 
+
+-------------------------------------
+-- Actualizar un registro
+
 UPDATE Usuario
 SET Nombre = 'Roy Rojas Rojas'
 WHERE UsuarioID = 1
 
 GO
 
+
+-------------------------------------
 -- Consultas a los datos historicos
 
 -- Consulta todos los cambios por rango de fechas
@@ -74,6 +88,7 @@ SELECT * FROM Usuario
         UsuarioID = 2 ORDER BY ValidFrom;
 
 
+-------------------------------------
 -- Para borrar las tablas versionadas
 
 ALTER TABLE [dbo].[Usuario] SET ( SYSTEM_VERSIONING = OFF  )
@@ -86,6 +101,7 @@ DROP TABLE [dbo].[UsuarioHistory]
 GO
 
 
+-------------------------------------
 -- Crear tabla versionada para tablas ya existentes
 
 CREATE TABLE Usuario2
