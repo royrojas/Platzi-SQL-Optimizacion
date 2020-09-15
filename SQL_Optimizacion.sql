@@ -6,17 +6,18 @@ USE WideWorldImporters
 
 GO
 
-SELECT TOP 10000 * FROM Application.People p
-INNER JOIN Sales.InvoiceLines i ON p.PersonID = i.LastEditedBy
-INNER JOIN Warehouse.StockItemTransactions s ON p.PersonID = s.LastEditedBy
-ORDER BY i.StockItemID
+SELECT TOP 10000 * 
+  FROM Application.People p INNER JOIN 
+       Sales.InvoiceLines i ON p.PersonID = i.LastEditedBy INNER JOIN 
+       Warehouse.StockItemTransactions s ON p.PersonID = s.LastEditedBy
+ ORDER BY i.StockItemID
 
 GO
 
 SELECT *
-FROM Sales.Invoices
+  FROM Sales.Invoices
 --WITH(INDEX([FK_Sales_Invoices_AccountsPersonID]))
-WHERE CustomerID = 191
+ WHERE CustomerID = 191
 
 GO
 
