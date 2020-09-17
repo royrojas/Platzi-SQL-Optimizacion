@@ -1,0 +1,3 @@
+-- Curso Optimización SQL SERVER
+-- Roy Rojas
+-- Clase 23 - Vistas
