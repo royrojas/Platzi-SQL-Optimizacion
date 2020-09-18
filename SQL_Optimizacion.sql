@@ -6,7 +6,6 @@ USE PlatziSQL
 
 GO
 
-
 -------------------------------------
 -- Creacion de tabla versionada desde el inicio
 
