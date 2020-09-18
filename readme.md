@@ -1,7 +1,6 @@
 ## Curso Optimización SQL SERVER
 
-Roy Rojas - royrojas.com | dotnetcr.com
- 
+Roy Rojas - [royrojas.com](https://www.royrojas.com) | [dotnetcr.com](https://www.dotnetcr.com)
 
 #### Lista de scripts
 
