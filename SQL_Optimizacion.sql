@@ -8,7 +8,7 @@ GO
 
 
 -------------------------------------
--- Creacion de tabla 
+-- Creacion de tabla versionada desde el inicio
 
 CREATE TABLE Usuario
 (
