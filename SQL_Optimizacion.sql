@@ -2,7 +2,6 @@
 -- Roy Rojas
 -- Clase 20 - Funciones
 
-
 USE WideWorldImporters
 
 GO
