@@ -4,7 +4,7 @@
 
 USE AdventureWorks2019
 
-GO
+GO 
 
 SET STATISTICS IO ON
 
