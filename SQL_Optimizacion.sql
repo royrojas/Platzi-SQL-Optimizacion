@@ -6,6 +6,10 @@ USE WideWorldImporters
 
 GO
 
+SET STATISTICS IO ON
+
+GO
+
 SELECT TOP 10000 * 
   FROM Application.People p INNER JOIN 
        Sales.InvoiceLines i ON p.PersonID = i.LastEditedBy INNER JOIN 
