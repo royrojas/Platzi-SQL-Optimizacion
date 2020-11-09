@@ -38,3 +38,19 @@ SELECT * FROM Purchasing.PurchaseOrders
 
 -- Para desplegar pantalla
 -- TOOLS \ OPTIONS \ Query Results \ SQL Server \ Result to Grid
+
+
+
+SET STATISTICS IO ON
+
+SELECT (SELECT MAX([OrderDate])
+FROM [Sales].[Orders]) mx,
+(SELECT
+MIN([BackorderOrderID])
+FROM [Sales].[Orders]) mn;
+
+GO
+
+SELECT MAX([OrderDate]) mx,
+MIN([BackorderOrderID]) mn
+FROM [Sales].[Orders];
