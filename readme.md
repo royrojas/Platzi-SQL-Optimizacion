@@ -9,8 +9,8 @@ Roy Rojas - [royrojas.com](https://www.royrojas.com) | [dotnetcr.com](https://ww
 | 05  | [Planes de ejecución](https://github.com/royrojas/Platzi-SQL-Optimizacion/tree/05-plan-ejec)              |
 | 06  | [Indices](https://github.com/royrojas/Platzi-SQL-Optimizacion/tree/06-indices)                            |
 | 07  | [Indices - Creación](https://github.com/royrojas/Platzi-SQL-Optimizacion/tree/07-creacion-indices)        |
-| 06  | [Indices - Forzar](https://github.com/royrojas/Platzi-SQL-Optimizacion/tree/08-indices-forzar)            |
-| 06  | [Indices - Siempre son buenos?](https://github.com/royrojas/Platzi-SQL-Optimizacion/tree/09-indices-siempre-son-buenos) |
+| 08  | [Indices - Forzar](https://github.com/royrojas/Platzi-SQL-Optimizacion/tree/08-indices-forzar)            |
+| 09  | [Indices - Siempre son buenos?](https://github.com/royrojas/Platzi-SQL-Optimizacion/tree/09-indices-siempre-son-buenos) |
 | 10  | [Merge 01](https://github.com/royrojas/Platzi-SQL-Optimizacion/tree/10-merge)                             |
 | 11  | [Merge 02]()                                                                                              |
 | 16  | [Tablas versionadas](https://github.com/royrojas/Platzi-SQL-Optimizacion/tree/16-tablas-versionadas)      |
