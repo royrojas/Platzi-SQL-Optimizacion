@@ -2,10 +2,6 @@
 -- Roy Rojas
 -- Clase 06 - Indices
 
--- Curso Optimización SQL SERVER
--- Roy Rojas
--- Clase 06 - Indices
-
 USE WideWorldImporters
 
 GO
