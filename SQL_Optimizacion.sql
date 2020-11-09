@@ -26,8 +26,23 @@ SELECT [OrderID],[ContactPersonID],
 FROM [WideWorldImporters].[Sales].[Orders]
 WHERE ContactPersonID = 3176;
 
+-- Corregir el índice
+FK_Sales_Orders_ContactPersonID agregar [PickingCompletedWhen]
+
 -- Aqui podemos ver la respuesta de las estadísticas.
 -- Table 'Orders'. Scan count 1, logical reads 416,
 -- En el plan de ejecucion podemos ver el Key Lookup y las columnas que estan fuera del índice.
 -- Corregir el índice
 
+-------------------------
+
+SET STATISTICS IO ON
+SELECT [InvoiceID]     
+      ,[ContactPersonID]
+      ,[AccountsPersonID]
+  FROM [WideWorldImporters].[Sales].[Invoices]
+  WHERE [ContactPersonID] >= 3032 AND
+        [ContactPersonID] <= 3035;
+
+-- Corregir el índice
+FK_Sales_Invoices_ContactPersonID agregar [AccountsPersonID]
