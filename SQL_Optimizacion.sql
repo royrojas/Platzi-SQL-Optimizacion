@@ -5,7 +5,7 @@
 USE PlatziSQL
 
 GO
-
+ 
 -------------------------------------
 -- Creacion de tabla versionada desde el inicio
 
@@ -45,9 +45,9 @@ INSERT INTO [dbo].[Usuario]
            ,[Web])
      VALUES
            (2
-           ,'Bill Gates'
-           ,'@billgates'
-           ,'www.microsoft.com.com')
+           ,'Maria Ramirez'
+           ,'@maria'
+           ,'www.mariaramitez.com')
 
 GO
 
