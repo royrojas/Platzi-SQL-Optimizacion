@@ -8,6 +8,8 @@ GO
 
 SET STATISTICS IO ON
 
+GO
+
 SELECT SalesOrderDetailID,
 	   OrderQty
   FROM Sales.SalesOrderDetail S
