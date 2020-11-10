@@ -13,28 +13,26 @@ SET QUOTED_IDENTIFIER ON
 GO
 ALTER   TRIGGER [dbo].[t_update] 
    ON  [dbo].[UsuarioTarget]
-   AFTER UPDATE
+   AFTER INSERT, UPDATE
 AS 
 BEGIN
 
 	IF (ROWCOUNT_BIG() = 0)
 	RETURN;
 
-	declare @codigo int
-	select @codigo = codigo from inserted
+	DECLARE @codigo int
+	SELECT @codigo = codigo FROM inserted
 
-	if @codigo = 7
-	begin
+	IF @codigo = 7
+	BEGIN
 		Print 'NO se realizó un update'
-		rollback;
-		return;
-	end
+		ROLLBACK;
+		RETURN;
+	END
 	
-	--select Codigo, Nombre, Puntos from inserted
+	-- SELECT Codigo, Nombre, Puntos from inserted
 	
 	Print 'Se realizó un update'
-
-	--rollback;
 
 END
 
