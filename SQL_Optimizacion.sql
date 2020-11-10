@@ -1,6 +1,6 @@
 -- Curso Optimización SQL SERVER
 -- Roy Rojas
--- Clase 13 - Trigger
+-- Clase 13 - Trigger 01
 
 
 CREATE OR ALTER TRIGGER t_insert 
