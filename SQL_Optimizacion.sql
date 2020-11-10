@@ -3,8 +3,6 @@
 -- Clase 13 - Trigger B - Administracion de SQL
 
 
-
-
 -- trigger para creacion de tablas
 
 CREATE OR ALTER TRIGGER safety   
