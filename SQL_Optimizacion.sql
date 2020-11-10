@@ -51,3 +51,7 @@ SELECT ProductID, SUM(OrderQty) FROM Sales.SalesOrderDetail AS sod
     AND soh.OrderDate = '2011-05-31 00:00:00.000'  
 	GROUP BY ProductID
 	ORDER BY ProductID
+
+
+-------
+
