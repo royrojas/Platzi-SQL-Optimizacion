@@ -23,29 +23,19 @@ GO
 SET ANSI_NULLS ON
 GO
 
-
-
-
 -- Valor default
-ALTER TABLE UsuarioSource ADD CONSTRAINT [DF_UsuarioSource_Puntos]  DEFAULT ((0)) FOR [Puntos]
+ALTER TABLE UsuarioSource 
+ADD CONSTRAINT [DF_UsuarioSource_Puntos]  DEFAULT ((0)) FOR [Puntos]
 GO
-
-
 
 -- Unico
-ALTER TABLE UsuarioSource ADD CONSTRAINT UC_Nombre UNIQUE (Nombre)
+ALTER TABLE UsuarioSource 
+ADD CONSTRAINT UC_Nombre UNIQUE (Nombre)
 GO
 
-ALTER TABLE UsuarioSource ADD CONSTRAINT CHK_Nombre_Puntos Check (Puntos>=0 AND Nombre<>'Juan Carlos')
-
-
-ALTER TABLE UsuarioSource
-ADD CONSTRAINT c_UsuarioSource_Nombre UNIQUE(Nombre)
-
+ALTER TABLE UsuarioSource 
+ADD CONSTRAINT CHK_Nombre_Puntos Check (Puntos >=0 AND Nombre <> 'Maria Solis')
 GO
-
-ALTER TABLE UsuarioSource
-ADD CONSTRAINT c_UsuarioSource_Nombre_Puntos Check(Puntos >= 0 AND Nombre <> 'Maria Solis')
 
 
 INSERT UsuarioSource
