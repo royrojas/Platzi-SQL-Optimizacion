@@ -1,6 +1,6 @@
 -- Curso Optimización SQL SERVER
 -- Roy Rojas
--- Clase 26 - Tablas temporales
+-- Clase 26 - Tablas temporales y Tablas Variables
 
 
 USE Platzi
@@ -44,3 +44,5 @@ SELECT Codigo, Nombre
  WHERE Codigo < 4
 
 SELECT * FROM @VariableTabla
+
+
