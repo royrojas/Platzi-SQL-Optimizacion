@@ -3,6 +3,13 @@
 -- Clase 24 - Procedimientos almacenados
 
 
+	SELECT I.StockItemName,
+		   dbo.f_TotalVendidoXProducto(I.StockItemID)
+	  FROM Warehouse.StockItems I INNER JOIN	
+		   Sales.OrderLines O ON I.StockItemID = O.StockItemID
+	 WHERE I.StockItemID = 45
+	 GROUP BY I.StockItemID,
+		   I.StockItemName
 
 CREATE or ALTER PROCEDURE msp_retornaItem(
 @StockItemID int,
@@ -13,7 +20,7 @@ AS
 BEGIN
 
 	SELECT @StockItemName = I.StockItemName,
-		   @Vendido = dbo.f_TotalVendidoXProducto(@StockItemID)
+		   @Vendido = dbo.f_TotalVendidoXProducto(I.StockItemID)
 	  FROM Warehouse.StockItems I INNER JOIN	
 		   Sales.OrderLines O ON I.StockItemID = O.StockItemID
 	 WHERE I.StockItemID = @StockItemID
