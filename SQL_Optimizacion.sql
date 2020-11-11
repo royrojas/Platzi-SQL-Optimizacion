@@ -6,6 +6,23 @@ USE WideWorldImporters
 
 GO
 
+SELECT I.StockItemID,
+	   I.StockItemName,
+	   SUM(O.Quantity * O.UnitPrice) as Vendido
+  FROM Warehouse.StockItems I INNER JOIN	
+	   Sales.OrderLines O ON I.StockItemID = O.StockItemID
+ WHERE I.StockItemID = 45
+ GROUP BY I.StockItemID,
+	   I.StockItemName
+GO
+SELECT I.StockItemID,
+	   I.StockItemName,
+	   dbo.f_TotalVendidoXProducto(I.StockItemID) as Vendido
+  FROM Warehouse.StockItems I
+ WHERE I.StockItemID = 45
+
+ GO
+ 
 -- Funcion con retorno de un valor
 CREATE FUNCTION f_TotalVendidoXProducto
 (
