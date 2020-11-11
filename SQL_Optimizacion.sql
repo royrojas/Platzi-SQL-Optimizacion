@@ -61,13 +61,11 @@ CREATE VIEW v_VentasXProducto_Indexada
 WITH SCHEMABINDING 
 AS
      SELECT StockItemID, 
-		    --Description,
             COUNT_BIG(*) as TotalLineas, 
 			SUM(Quantity) as CantidadProductos,
 			SUM(ISNULL(Quantity * UnitPrice,0)) Total
       FROM  Sales.OrderLines	  
       GROUP BY StockItemID 
-	  --, Description
 
 GO
 
