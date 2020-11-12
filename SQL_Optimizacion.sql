@@ -20,7 +20,7 @@ SELECT * FROM #UsuarioSource
 DROP TABLE #UsuarioSource
 
 -- Tabla GLOBAL ##
--- TAblas las puede ver cualquier usuario en SQL
+-- Tablas las puede ver cualquier usuario en SQL
 --- Recomendacion no usarlas
 SELECT * FROM ##UsuarioSource
 
@@ -31,6 +31,11 @@ AS
 BEGIN
 	SELECT * FROM #UsuarioSource
 END
+
+
+DROP TABLE #UsuarioSource
+DROP PROCEDURE msp_prueba
+
 
 -----
 -- Tablas variales
