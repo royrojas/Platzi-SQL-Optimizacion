@@ -1,8 +1,13 @@
 -- Curso Optimización SQL SERVER
 -- Roy Rojas
--- Clase 30 - Querys de monitoreo
+-- twitter.com/royrojasdev | linkedin.com/in/royrojas
+------------------------------------------------------
+-- Clase 28 - Querys de monitoreo
+------------------------------------------------------
 
 
+-- Muestra el estado de las consultas y procesos en el servidor
+-- se va a servir para ver si hay bloqueos o cual usuario ejecuta X proceso
 CREATE PROCEDURE [dbo].[sp_who3]
 (
     @SessionID int = NULL
@@ -65,6 +70,8 @@ END
 
 GO
 
+
+-- ultimos objetos en modificarse
 SELECT name
 FROM sys.objects
 WHERE type = 'P'
