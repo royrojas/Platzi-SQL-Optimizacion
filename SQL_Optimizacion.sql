@@ -1,6 +1,9 @@
 -- Curso Optimización SQL SERVER
 -- Roy Rojas
--- Clase 10 - Merge 02
+-- twitter.com/royrojasdev | linkedin.com/in/royrojas
+------------------------------------------------------
+-- Clase 10 - Mege, otras formas de utilizar
+------------------------------------------------------
 
 
 USE Platzi
