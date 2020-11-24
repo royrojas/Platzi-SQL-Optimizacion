@@ -1,6 +1,9 @@
 -- Curso Optimización SQL SERVER
 -- Roy Rojas
--- Clase 21 - Funciones Tabla
+-- twitter.com/royrojasdev | linkedin.com/in/royrojas
+------------------------------------------------------
+-- Clase 19 - Funciones Tabla
+------------------------------------------------------
 
 USE WideWorldImporters
 
