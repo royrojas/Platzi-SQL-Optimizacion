@@ -2,13 +2,13 @@
 -- Roy Rojas
 -- twitter.com/royrojasdev | linkedin.com/in/royrojas
 ------------------------------------------------------
--- Clase 09 - Índices pueden perjudicar el rendimiento 
+-- Clase 09 - Índices pueden perjudicar el rendimiento?
 ------------------------------------------------------
 
 USE AdventureWorks2019
 
 GO 
-
+-- Activamos las estadísticas
 SET STATISTICS IO ON
 
 GO
@@ -35,6 +35,8 @@ ON Sales.SalesOrderDetail
 (ProductID ASC, SalesOrderID ASC)
 INCLUDE (SalesOrderDetailID, OrderQty)
 
+-- Ejecutamos los dos indices y vemos que el segundo, donde aparentemente tienen los mismos datos solo que en orden distinto,
+-- afecta el rendimiento de la consulta
 
 DROP INDEX IX_PRIMERO ON Sales.SalesOrderDetail
 DROP INDEX IX_SEGUNDO ON Sales.SalesOrderDetail
