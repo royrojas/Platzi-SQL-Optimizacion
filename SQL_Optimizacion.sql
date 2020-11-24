@@ -1,6 +1,9 @@
 -- Curso Optimización SQL SERVER
 -- Roy Rojas
--- Clase 09 - Indices pueden perjudicar el rendimiento
+-- twitter.com/royrojasdev | linkedin.com/in/royrojas
+------------------------------------------------------
+-- Clase 09 - Índices pueden perjudicar el rendimiento 
+------------------------------------------------------
 
 USE AdventureWorks2019
 
@@ -18,7 +21,7 @@ SELECT SalesOrderDetailID,
 					 WHERE S2.SalesOrderID = S.SalesOrderID
 					 GROUP BY SalesOrderID)
 
--- se pueden ver los datos y analizar la cantidad e informacion
+-- Se pueden ver los datos y analizar la cantidad e información
 -- una pagina pesa 8K. se multiplican los valores para ver el tamaño de la informacion que estamos procesando.
 
 CREATE NONCLUSTERED INDEX IX_PRIMERO
