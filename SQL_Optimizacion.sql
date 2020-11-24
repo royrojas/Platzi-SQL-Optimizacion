@@ -1,6 +1,9 @@
 -- Curso Optimización SQL SERVER
 -- Roy Rojas
+-- twitter.com/royrojasdev | linkedin.com/in/royrojas
+------------------------------------------------------
 -- Clase 08 - Forzar Indices
+------------------------------------------------------
 
 USE WideWorldImporters
 
