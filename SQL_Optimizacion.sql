@@ -6,6 +6,7 @@ USE WideWorldImporters
 
 GO
 
+-- Activamos las estadísitcas
 SET STATISTICS IO ON
 
 SELECT TOP 10000 * 
