@@ -5,7 +5,6 @@
 -- Clase 10 - Mege, otras formas de utilizar
 ------------------------------------------------------
 
-
 USE Platzi
 
 GO
