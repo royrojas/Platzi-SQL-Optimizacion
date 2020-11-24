@@ -2,10 +2,13 @@
 -- Roy Rojas
 -- Clase 05 - Introducción Planes de Ejecución
 
+-- Ejecutaremos algunos querys de practica
+
 USE WideWorldImporters
 
 GO
 
+-- Activemos las estadísticas 
 SET STATISTICS IO ON
 
 GO
@@ -42,7 +45,6 @@ SELECT * FROM Purchasing.PurchaseOrders
 
 -- Para desplegar pantalla
 -- TOOLS \ OPTIONS \ Query Results \ SQL Server \ Result to Grid
-
 
 
 SET STATISTICS IO ON
