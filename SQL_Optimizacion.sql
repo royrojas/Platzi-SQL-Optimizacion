@@ -13,4 +13,7 @@ FROM [WideWorldImporters].[Sales].[Invoices]
 WITH(INDEX([FK_Sales_Invoices_AccountsPersonID]))
 WHERE CustomerID = 191
  
--- Reiterando que forzar el uso de un indice no es una buena idea, exepto en casoa aislados de uso temporal. Siempre es recomendado reescribir una consulta para que se utilice el indice adecuado.
+-- Reiterando que forzar el uso de un indice NO es una buena idea, 
+-- exepto en casos aislados de uso temporal. 
+-- Imaginemos una migracion o una carga especial de datos donde queremos que los datos se comporten de una forma en específico.
+-- Siempre es recomendado reescribir una consulta para que se utilice el indice adecuado.
