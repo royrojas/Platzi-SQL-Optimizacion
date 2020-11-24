@@ -4,7 +4,7 @@
 ------------------------------------------------------
 -- Clase 21 - Procedimientos almacenados
 ------------------------------------------------------
-
+ 
 
 	SELECT I.StockItemName,
 		   dbo.f_TotalVendidoXProducto(I.StockItemID)
