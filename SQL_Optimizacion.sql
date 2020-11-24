@@ -1,6 +1,9 @@
 -- Curso Optimización SQL SERVER
 -- Roy Rojas
--- Clase 24 - Procedimientos almacenados
+-- twitter.com/royrojasdev | linkedin.com/in/royrojas
+------------------------------------------------------
+-- Clase 21 - Procedimientos almacenados
+------------------------------------------------------
 
 
 	SELECT I.StockItemName,
