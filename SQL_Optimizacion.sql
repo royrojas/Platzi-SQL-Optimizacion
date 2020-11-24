@@ -1,6 +1,9 @@
 -- Curso Optimización SQL SERVER
 -- Roy Rojas
+-- twitter.com/royrojasdev | linkedin.com/in/royrojas
+------------------------------------------------------
 -- Clase 16 - Tablas Versionadas
+------------------------------------------------------
 
 USE PlatziSQL
 
@@ -64,6 +67,9 @@ GO
 
 -------------------------------------
 -- Consultas a los datos historicos
+
+-- Puedes hacer consultas directamente a la tabla histórita
+SELECT * FROM UsuarioHistory WHERE UsuarioID = 1
 
 -- Consulta todos los cambios por rango de fechas
 SELECT * FROM Usuario
