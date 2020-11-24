@@ -1,12 +1,13 @@
 -- Curso Optimización SQL SERVER
 -- Roy Rojas
--- Clase 14 - Trigger captura de errores
-
-
+-- twitter.com/royrojasdev | linkedin.com/in/royrojas
+------------------------------------------------------
+-- Clase 13 - Trigger manejo de errores
+------------------------------------------------------
 
 USE [PlatziSQL]
 GO
-/****** Object:  Trigger [dbo].[t_update]    Script Date: 11/10/2020 12:14:46 AM ******/
+
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
