@@ -1,6 +1,9 @@
 -- Curso Optimización SQL SERVER
 -- Roy Rojas
--- Clase 13 - Trigger 01
+-- twitter.com/royrojasdev | linkedin.com/in/royrojas
+------------------------------------------------------
+-- Clase 13 - Trigger, qué es? como funciona?
+------------------------------------------------------
 
 
 CREATE OR ALTER TRIGGER t_insert 
