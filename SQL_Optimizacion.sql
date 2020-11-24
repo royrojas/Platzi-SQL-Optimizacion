@@ -1,6 +1,9 @@
 -- Curso Optimización SQL SERVER
 -- Roy Rojas
--- Clase 07 - Crear Indices, entender plan de ejecucion
+-- twitter.com/royrojasdev | linkedin.com/in/royrojas
+------------------------------------------------------
+-- Clase 07 - Crear índices, entender plan de ejecución
+------------------------------------------------------
 
 USE WideWorldImporters
 
