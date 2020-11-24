@@ -1,6 +1,9 @@
 -- Curso Optimización SQL SERVER
 -- Roy Rojas
--- Clase 23 - Vistas
+-- twitter.com/royrojasdev | linkedin.com/in/royrojas
+------------------------------------------------------
+-- Clase 20 - Vistas y Vista indexada
+------------------------------------------------------
 
 USE WideWorldImporters
 
@@ -56,6 +59,7 @@ GO
 SET NUMERIC_ROUNDABORT OFF 
 GO
 
+-- Indexada
 -- Creación vista con SCHEMABINDING
 CREATE VIEW v_VentasXProducto_Indexada
 WITH SCHEMABINDING 
