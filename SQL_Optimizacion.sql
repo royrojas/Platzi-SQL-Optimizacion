@@ -1,6 +1,9 @@
 -- Curso Optimización SQL SERVER
 -- Roy Rojas
+-- twitter.com/royrojasdev | linkedin.com/in/royrojas
+------------------------------------------------------
 -- Clase 10 - Merge 01
+------------------------------------------------------
 
 USE PlatziSQL
 
@@ -81,7 +84,7 @@ SELECT * FROM UsuarioTarget
 SELECT * FROM UsuarioSource
 
 
-
+--------------------
 --------------------
 -- Sintaxis
 
