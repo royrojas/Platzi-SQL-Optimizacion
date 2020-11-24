@@ -1,6 +1,9 @@
 -- Curso Optimización SQL SERVER
 -- Roy Rojas
+-- twitter.com/royrojasdev | linkedin.com/in/royrojas
+------------------------------------------------------
 -- Clase 06 - Indices
+------------------------------------------------------
 
 USE WideWorldImporters
 
