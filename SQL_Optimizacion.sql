@@ -2,7 +2,7 @@
 -- Roy Rojas
 -- twitter.com/royrojasdev | linkedin.com/in/royrojas
 ------------------------------------------------------
--- Clase 13 - Trigger B - Administracion de SQL
+-- Clase 14 - Trigger - Administracion de SQL
 ------------------------------------------------------
 
 -- trigger para creacion de tablas
