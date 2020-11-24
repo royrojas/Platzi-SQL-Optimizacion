@@ -20,7 +20,7 @@ GO
 	 GROUP BY s.StockItemID, s.StockItemName
 
 GO
-
+ 
 
 CREATE or ALTER FUNCTION f_TotalComprasXCliente
 (	
