@@ -15,6 +15,7 @@ SELECT TOP 10000 *
  GO
 
 -- Ejecute el siguiente comando para habilitar las estadísticas para el IO.
+-- Activando las estadísticas nos va a mostrar el detalle de la carga de escritura y tamaño de paginación
 SET STATISTICS IO ON
 
 SELECT [OrderID],[ContactPersonID],
