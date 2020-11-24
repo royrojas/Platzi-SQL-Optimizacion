@@ -1,6 +1,9 @@
 -- Curso Optimización SQL SERVER
 -- Roy Rojas
+-- twitter.com/royrojasdev | linkedin.com/in/royrojas
+------------------------------------------------------
 -- Clase 05 - Introducción Planes de Ejecución
+------------------------------------------------------
 
 -- Ejecutaremos algunos querys de practica
 
