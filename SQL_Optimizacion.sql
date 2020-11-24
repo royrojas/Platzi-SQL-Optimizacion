@@ -1,6 +1,9 @@
 -- Curso Optimización SQL SERVER
 -- Roy Rojas
--- Clase 26 - Tablas temporales y Tablas Variables
+-- twitter.com/royrojasdev | linkedin.com/in/royrojas
+------------------------------------------------------
+-- Clase 22 - Tablas Temporales y Tablas Variables
+------------------------------------------------------
 
 
 USE Platzi
