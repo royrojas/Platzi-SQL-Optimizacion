@@ -14,6 +14,10 @@ Storage / Full Text Catalogs / Click derecho New
 -- Cómo lo utilizamos
 ------------------------
 
+-- IMPORTANTE
+-- Para hacer coincidir palabras y frases, use CONTAINS y CONTAINSTABLE.
+-- Para hacer coincidir el significado, aunque no con la redacción exacta, use FREETEXT y FREETEXTTABLE
+
 USE AdventureWorks2012  
 GO  
   
