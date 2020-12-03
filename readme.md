@@ -27,8 +27,6 @@ Websites: [royrojas.com](https://www.royrojas.com) | [dotnetcr.com](https://www.
 | 22  | [Tablas temporales](https://github.com/royrojas/Platzi-SQL-Optimizacion/tree/22-tablas-temporales)      |
 | 28  | [Querys monitoreo](https://github.com/royrojas/Platzi-SQL-Optimizacion/tree/28-querys-monitoreo)      |
 
-                        |
-
 
 
 
