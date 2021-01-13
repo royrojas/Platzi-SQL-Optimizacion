@@ -3,6 +3,7 @@
 Roy Rojas - Twitter [@royrojasdev](https://twitter.com/royrojasdev) | LinkedIn [@royrojas](https://linkedin.com/in/royrojas) \
 Websites: [royrojas.com](https://www.royrojas.com) | [dotnetcr.com](https://www.dotnetcr.com) 
 
+Repositorio creado para el Curso de Optimización de SQL en Platzi [https://platzi.com/clases/optimizacion-sql-server/]
 #### Lista de scripts
 
 | ID  | Curso                                                                                                     |
